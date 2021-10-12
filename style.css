@@ -1,0 +1,56 @@
+body {
+  margin: 25;
+  border: 5px;
+  padding: 10px 0px 20px 100px;
+  background-color: rgb(178, 233, 233);
+}
+
+div {
+  background-color: rgb(158, 232, 241);
+}
+
+strong {
+  background-color: bisque;
+}
+
+@media (min-width: 320px) {
+  .container {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .container {
+    width: 481px;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .container {
+    width: 641px;
+  }
+}
+
+@media screen and (min-width: 961px) {
+  .container {
+    width: 961px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .box {
+    width: 100%;
+  }
+  #image {
+    width: 100%;
+  }
+  h2 {
+    text-align: center;
+  }
+}
