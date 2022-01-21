@@ -26,6 +26,7 @@
         <input type="date" name="myDate">
         <label for="bonus">Bonus</label>
         <input type="number" name="myBonus">
+        
         <div class="intern">
           <label for="intern">Any Intern ?</label>
           <input type="radio" name="myGender">
@@ -36,7 +37,7 @@
       </div>
 
       <div class="gender">
-        <label for="gender" >Gender</label>
+        <label for="gender">Gender</label>
         <input type="radio" name="myGender">
         <label for="male">Male</label>
         <input type="radio" name="myGender">
@@ -57,17 +58,19 @@
         <textarea name="myText" cols="80" rows="10"></textarea>
       </div>
 
-      <div class="qualification"> <label for="qualification">Qualification</label>
+      <div class="qualification">
+        <label for="qualification">Qualification</label>
         <select name="myQualification" id="qualification">
           <option value="Acad.">12thScience</option>
           <option value="UG">BCA/B.Tech</option>
           <option value="PG">MCA/M.Sc.</option>
         </select>
       </div>
+
       <div class="submit_section">
-        <label for="sumbit">Do you want to submit or reset the above form ?</label>
-        <input type="submit" value="Submit Now">
-        <input type="reset" value="Reset Now">
+        <span>Do you want to submit or reset the above form ?</span>
+        <button class="submit">Submit Now</button>
+        <button class="reset">Reset Now</button>
 
       </div>
     </form>

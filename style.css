@@ -5,10 +5,13 @@ body {
   background-color: rgb(178, 233, 233);
 }
 h2{
-  border: 10px solid rgb(255, 0, 212);
+  border: 5px solid rgb(112, 3, 112);
+  background-color: darkorange;
 }
 h3{
-  border: 2px solid rgb(255, 0, 255);
+  border: 3px solid rgb(112, 3, 112);
+  background-color: darkorange;
+  margin: 2px;
 }
 
 div {
@@ -62,11 +65,29 @@ align-items: center;
 }
 
 .qualification{
-  padding: 19px 105px 20px 0px;
+  padding: 21px 17px 20px 50px;
 }
 
 #qualification{
   margin-left: 80px;
+  padding: 0px 70px 0px 70px;
+}
+
+button{
+  background-color: #3f069b;
+  color: white;
+  padding: 8px 30px;
+  margin: 30px 30px;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  background-color: red;
+}
+span{
+    padding-left: 0px;
+    display: flex;
+
 }
 
 @media (min-width: 320px) {
