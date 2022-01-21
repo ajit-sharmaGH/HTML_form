@@ -4,6 +4,9 @@ body {
   padding: 10px 0px 20px 100px;
   background-color: rgb(178, 233, 233);
 }
+h2{
+  border: 10px solid rgb(255, 0, 212);
+}
 h3{
   border: 2px solid rgb(255, 0, 255);
 }
@@ -12,31 +15,50 @@ div {
   background-color: rgb(158, 232, 241);
 }
 
-input[type="text"], input[type="email"], input[type="date"], input[type="number"]{
+input[type="text"], input[type="email"], input[type="date"], input[type="number"], input[type="textarea"]{
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
 }
 .container{
-
     display: flex;
     flex-direction: column;
-    align-content: center;
-    align-items: flex-start;
+    align-items: center;
+    margin-left: 155px;
+    font-size: 18px;
+    font-family: arial;
+    
 }
 .formbox{
 display: flex;
 flex-direction: column;
+justify-content: center;
+align-items: center;
+}
 
+.input_fields{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  
 }
 .gender{
   display: flex;
+  display: flex;
+  flex-direction: row;
+  padding-right: 120px;
+  padding-top: 20px;
 }
+.textarea{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-left: 34px;
+}
+.textarea label{
+  padding: 15px 0px;
 
-strong {
-  background-color: bisque;
 }
 
 @media (min-width: 320px) {
@@ -78,5 +100,6 @@ strong {
   }
   h2 {
     text-align: center;
+    
   }
 }

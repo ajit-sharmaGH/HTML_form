@@ -11,27 +11,32 @@
 
 <body>
   <div class="container">
-    <strong style="border: 10px solid rgb(255, 0, 212)">
-      This is an HTML form by @AJIT_SHARMA <br />
-    </strong>
+    <h2>This is an HTML form by @AJIT_SHARMA</h2>
+
     <form action="#" class="formbox">
-      <label for="name">Name</label>
-      <input type="text" name="myName" id="name">
-      <label for="role">Role</label>
-      <input type="text" name="myRole">
-      <label for="email">Email</label>
-      <input type="email" name="myEmail">
-      <label for="date">Date</label>
-      <input type="date" name="myDate">
-      <label for="bonus">Bonus</label>
-      <input type="number" name="myBonus">
-      <label for="intern">Any Inter ?</label>
-      <input type="checkbox" name="myEligibility">
-      <label for="about"> Describe about the intern you did before</label>
-      <textarea name="myText" cols="90" rows="10"></textarea>
+
+      <div class="input_fields">
+        <label for="name">Name</label>
+        <input type="text" name="myName" id="name">
+        <label for="role">Role</label>
+        <input type="text" name="myRole">
+        <label for="email">Email</label>
+        <input type="email" name="myEmail">
+        <label for="date">Date</label>
+        <input type="date" name="myDate">
+        <label for="bonus">Bonus</label>
+        <input type="number" name="myBonus">
+        <div class="intern">
+          <label for="intern">Any Intern ?</label>
+          <input type="radio" name="myGender">
+          <label for="yes">Yes</label>
+          <input type="radio" name="myGender">
+          <label for="no">No</label>
+        </div>
+      </div>
 
       <div class="gender">
-        <label for="gender">Gender</label>
+        <label for="gender" >Gender</label>
         <input type="radio" name="myGender">
         <label for="male">Male</label>
         <input type="radio" name="myGender">
@@ -40,10 +45,17 @@
         <label for="other">Other</label>
       </div>
 
-      <label for="about_yourself">Write about yourself / skills projects etc</label>
-      <textarea name="myText" cols="90" rows="10"></textarea>
-      <label for="address">Give a detailed description of your current address :</label>
-      <textarea name="myText" cols="90" rows="10"></textarea>
+      <div class="textarea">
+
+        <label for="about"> Describe about the intern you did before</label>
+        <textarea name="myText" cols="80" rows="10"></textarea>
+
+        <label for="about_yourself">Write about yourself / skills projects etc</label>
+        <textarea name="myText" cols="80" rows="10"></textarea>
+
+        <label for="address">Give a detailed description of your current address :</label>
+        <textarea name="myText" cols="80" rows="10"></textarea>
+      </div>
 
       <div class="qualification"> <label for="qualification">Qualification</label>
         <select name="myQualification" id="qualification">
