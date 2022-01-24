@@ -4,13 +4,90 @@ body {
   padding: 10px 0px 20px 100px;
   background-color: rgb(178, 233, 233);
 }
+h2{
+  border: 5px solid rgb(112, 3, 112);
+  background-color: darkorange;
+}
+h3{
+  border: 3px solid rgb(112, 3, 112);
+  background-color: darkorange;
+  margin: 2px;
+}
 
 div {
   background-color: rgb(158, 232, 241);
 }
 
-strong {
-  background-color: bisque;
+input[type="text"], input[type="email"], input[type="date"], input[type="number"], input[type="textarea"]{
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 155px;
+    font-size: 18px;
+    font-family: arial;
+    
+}
+.formbox{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.input_fields{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  
+}
+.gender{
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  padding-right: 120px;
+  padding-top: 20px;
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    padding-left: 34px;
+}
+.textarea label{
+  padding: 15px 0px;
+
+}
+
+.qualification{
+  padding: 21px 17px 20px 50px;
+}
+
+#qualification{
+  margin-left: 80px;
+  padding: 0px 70px 0px 70px;
+}
+
+button{
+  background-color: #3f069b;
+  color: white;
+  padding: 8px 30px;
+  margin: 30px 30px;
+  border: none;
+  cursor: pointer;
+}
+button:hover{
+  background-color: red;
+}
+span{
+    padding-left: 0px;
+    display: flex;
+
 }
 
 @media (min-width: 320px) {
@@ -52,5 +129,6 @@ strong {
   }
   h2 {
     text-align: center;
+    
   }
 }
